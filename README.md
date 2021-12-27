@@ -10,6 +10,8 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
+
+
 ### Module 1: Technical Communication 
 
 #### Unit 1 User manuals and instructions
@@ -32,11 +34,11 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 - **Writing definitions: three types of definitions**
 
-  <img src=".\img\Three types of definitions 1.png" alt="image-20211224111826153" style="zoom:33%;" />
+  <img src=".\img\Three types of definitions 1.png" alt="image-20211224111826153" style="zoom:30%;" />
 
-  <img src=".\img\Three types of definitions 2.png" alt="image-20211224111923117" style="zoom:33%;" />
+  <img src=".\img\Three types of definitions 2.png" alt="image-20211224111923117" style="zoom:30%;" />
 
-  <img src=".\img\Three types of definitions 3.png" alt="image-20211224112018348" style="zoom:33%;" />
+  <img src=".\img\Three types of definitions 3.png" alt="image-20211224112018348" style="zoom:30%;" />
 
 - **Guidelines for writing descriptions**
 
@@ -60,11 +62,11 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 - **Format and basic elements of an email**
 
-  <img src=".\img\email outline.png" alt="image-20211223153829084" style="zoom: 33%;" />
+  <img src=".\img\email outline.png" alt="image-20211223153829084" style="zoom: 30%;" />
 
 - **“you-attitude”**
 
-  <img src=".\img\you_attitude_vs_we_attitude.png" alt="image-20211223161415624" style="zoom:33%;" />
+  <img src=".\img\you_attitude_vs_we_attitude.png" alt="image-20211223161415624" style="zoom:30%;" />
 
 - **Ways to improve the appearance**
 
@@ -95,15 +97,15 @@ If you have any problems, please contact me via ShijieQ@outlook.com
   - *Don’t forward a message to an online discussion forum  without the writer’s permission*
   - *Don’t send a message unless you have something to  say* 
 
-  <img src=".\img\Some_Tips_for_Email_Effectiveness.png" alt="image-20211223163608490" style="zoom:33%;" />
+  <img src=".\img\Some_Tips_for_Email_Effectiveness.png" alt="image-20211223163608490" style="zoom:30%;" />
 
 - **Linguistic features**
 
-  <img src=".\img\read_and_decide_1.png" alt="image-20211223164024548" style="zoom:33%;" />
+  <img src=".\img\read_and_decide_1.png" alt="image-20211223164024548" style="zoom:30%;" />
 
-  <img src=".\img\read_and_decide_2.png" alt="image-20211223163929285" style="zoom:33%;" />
+  <img src=".\img\read_and_decide_2.png" alt="image-20211223163929285" style="zoom:30%;" />
 
-  <img src=".\img\read_and_decide_3.png" alt="image-20211223163951060" style="zoom:33%;" />
+  <img src=".\img\read_and_decide_3.png" alt="image-20211223163951060" style="zoom:30%;" />
 
 
 
@@ -144,7 +146,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 - **Components and format of a memo**
 
-  <img src=".\img\Elements_of_a_memo.png" alt="image-20211223202230669" style="zoom:33%;" />
+  <img src=".\img\Elements_of_a_memo.png" alt="image-20211223202230669" style="zoom:30%;" />
 
   - **Heading**
     - From & To
@@ -181,7 +183,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
       - **complimentary remarks**: *motivates the readers and makes them feel happy*
       - **directive statements**: *tells the readers what exactly is to be expected or what they have to do next*
 
-  <img src=".\img\Whats_wrong_with_this_memo.png" alt="image-20211223211443829" style="zoom:33%;" />
+  <img src=".\img\Whats_wrong_with_this_memo.png" alt="image-20211223211443829" style="zoom:30%;" />
 
 - **Writing skills**
 
@@ -238,9 +240,9 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 - **Difference between a résumé and a CV**
 
-  <img src=".\img\Resume_vs_CV_1.png" alt="image-20211224101348800" style="zoom:33%;" />
+  <img src=".\img\Resume_vs_CV_1.png" alt="image-20211224101348800" style="zoom:30%;" />
 
-  <img src=".\img\Resume_vs_CV_2.png" alt="image-20211224101415707" style="zoom:33%;" />
+  <img src=".\img\Resume_vs_CV_2.png" alt="image-20211224101415707" style="zoom:30%;" />
 
 - **Writing skills**
 
@@ -251,6 +253,8 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 - **Ways to improve the appearance**
 
 - **Linguistic features**
+
+
 
 
 
@@ -280,12 +284,12 @@ If you have any problems, please contact me via ShijieQ@outlook.com
   - **Ways in which to Open a Presentation:**
     -  **Anecdote:** Far safer than a joke. A well chosen (it must be relevant) anecdote will help to relax both you and the audience. It can help you to appear more human as a speaker and get the audience on your side. They can help build empathy and rapport
     - **Shock Opening:** This type of opening can really make an audience sit up and take notice, but make sure you can carry it off confidently. If you have any doubts opt for a safer more conventional opening
-    - **Historical: **Relating your presentation to some relevant historical fact eg '15 years ago this company consisted of 2 men and a very old and unreliable press. Today it is a thriving organisation employing 270 people and with a turnover of 43 million pounds
-    - **Quotation: **A very neat way to open and close a presentation. Beware of using hackneyed quotations though!
-    - **Current Affairs: **Referring to some relevant news item can be a good way to start as there will be commonality with the audience
-    - **Question: **Direct questions addressed to the audience helps to get them involved. Rhetorical questions are a powerful way to make your audience think
-    - **Statement/Statistic: **Avoid using too many or the effect will be lost. One or two carefully chosen ones combine the shock element with brevity
-    - **Comparisons: **Well-chosen comparisons can be very dramatic and are especially good it they relate to the audience's experience
+    - **Historical:** Relating your presentation to some relevant historical fact eg '15 years ago this company consisted of 2 men and a very old and unreliable press. Today it is a thriving organisation employing 270 people and with a turnover of 43 million pounds
+    - **Quotation:** A very neat way to open and close a presentation. Beware of using hackneyed quotations though!
+    - **Current Affairs:** Referring to some relevant news item can be a good way to start as there will be commonality with the audience
+    - **Question:** Direct questions addressed to the audience helps to get them involved. Rhetorical questions are a powerful way to make your audience think
+    - **Statement/Statistic:** Avoid using too many or the effect will be lost. One or two carefully chosen ones combine the shock element with brevity
+    - **Comparisons:** Well-chosen comparisons can be very dramatic and are especially good it they relate to the audience's experience
 - **Good ways to end a presentation**
 - **Techniques for handling questions**
 - **Functions of body language**
@@ -337,7 +341,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
     - greeting, attention-grabbing hook, introduction of the subject, thesis statement, credibility statement, preview of main points
   - **Body of your speech:** tell them the main ideas plus examples
     - state the point, present the supporting evidence, transition to next point
-  - **Conclusion: **
+  - **Conclusion:**
     - summary of the points discussed, restated thesis, a call to action, thank the audience
 - **Organization of the body of the speech**
   - The first step in developing a strong sense of speech organization is to gain command of the three basic parts of a speech——introduction, body, and conclusion——and the strategic role of each
