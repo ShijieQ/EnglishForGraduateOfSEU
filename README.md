@@ -1,8 +1,8 @@
-## General Review
+# General Review
 
 [![](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU) [![](https://img.shields.io/badge/licence-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![](https://img.shields.io/badge/stability-unstable-yellow.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU)
 
-### Abstract
+## Abstract
 
 This project is an general review about English for graduate student of Southeast University.
 
@@ -10,11 +10,9 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
+## Module 1: Technical Communication 
 
-
-### Module 1: Technical Communication 
-
-#### Unit 1 User manuals and instructions
+### Unit 1 User manuals and instructions
 
 - **Basic qualities of technical communication**
 
@@ -56,7 +54,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 2 Email
+### Unit 2 Email
 
 - How communication flows in an organization: **Using Email**
 
@@ -109,7 +107,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 3 Memo
+### Unit 3 Memo
 
 - **Channels of communication at workplace**
 
@@ -215,7 +213,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 4 Job application
+### Unit 4 Job application
 
 - **Background knowledge of a résumé**
 
@@ -258,9 +256,9 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-### Module 2: International Conference
+## Module 2: International Conference
 
-#### Unit 1 Presentation skills
+### Unit 1 Presentation skills
 
 - **Advantages and disadvantages of visual aids**
   - **Advantages:**
@@ -297,7 +295,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 2 Welcome/Opening speech
+### Unit 2 Welcome/Opening speech
 
 - Elements of a welcome speech and its features
   - greeting and appreciation
@@ -315,7 +313,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 3 Introducing speakers
+### Unit 3 Introducing speakers
 
 - How to make preparation for speaker introduction
 - Contents of speaker introduction
@@ -325,7 +323,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 4 Keynote speech
+### Unit 4 Keynote speech
 
 - **Definition of keynote speech** **->** *There are some different definitions*
   - an address designed to present the issues of primary interest to an assembly (such as a political convention) and often to arouse unity and enthusiasm
@@ -354,7 +352,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 5 Q & A
+### Unit 5 Q & A
 
 - **The time for the Q & A Session**
   - It starts the moment the keynote speaker finishes his/her speech.
@@ -391,7 +389,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 
 
-#### Unit 6 Closing speech
+### Unit 6 Closing speech
 
 - **Functions of a closing speech**
 
