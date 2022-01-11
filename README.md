@@ -56,7 +56,9 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 ### Unit 2 Email
 
-- How communication flows in an organization: **Using Email**
+- How communication flows in an organization: **horizontal/lateral, vertical, diagonal**
+
+  ![image-20220102213158376](C:\Users\Shiji\AppData\Roaming\Typora\typora-user-images\image-20220102213158376.png)
 
 - **Format and basic elements of an email**
 
@@ -119,7 +121,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 - **Audience & purposes/functions**
 
-  - **Audience:** *used in a company or an  organization for internal communication*
+  - **Audience:** *used in a company or an organization for internal communication*
   - **functions:**
     - *facilitate communication about various operations*
     - *help arrive at some quick decisions*
@@ -128,7 +130,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
       - *by persuading the reader to take an action, such as  attend a meeting, use less paper, change a current  production procedure -> **persuasive***
 
     - *enable the information to flow in 3 types of  communication:*
-      - *vertical (upward & downward), horizontal and  diagonal*
+      - *vertical (upward & downward), horizontal and diagonal*
     - *help bridge the communication gap among the various  sections of an organization*
     - *serve as permanent record of information*
 
@@ -226,7 +228,7 @@ If you have any problems, please contact me via ShijieQ@outlook.com
   - **Type:**
     - Chronological résumé: *preferred by most employers*
     - Functional/skills résumé: *emphasizes individual fields of competence*
-    - Hybrid/combination résumé:  *includes the best features of the chronological and functional résumés; very long and may be repetitive*
+    - Hybrid/combination résumé: *includes the best features of the chronological and functional résumés; very long and may be repetitive*
 
   - **components:**
     - Identifying information (personal/contact information)
@@ -291,7 +293,19 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 - **Good ways to end a presentation**
 - **Techniques for handling questions**
 - **Functions of body language**
+  - Some research indicates that body language accounts for approximately 65% of human interaction - with words accounting for the rest
+  - 90% of the impression that we make when we first appear before an audience is formulated with the first 60 seconds. It is therefore vital to get not only the words right but also the gestures and Body Language
+  - Body language can also cancel or reinforce what we are saying verbally and it is essential that the two sets of messages agree
+
 - **Functions of pitch, pace and pause in a presentation**
+  - **Pitch:** This simply means the note at which you speak. Just as a musical instrument would be very dull if it was played using two or three notes so is the voice if a speaker has a restricted range.
+  - **Pace:** Pace is the rate at which you speak. It is important to vary the rate at which you speak in  order to add colour and variety to your voice.
+  - **Pause:** Pauses are very necessary in speech for a number of reasons and these are:
+    - Gives the speaker time to think
+    - Gives the audience time to absorb information
+    - Makes the speaker appear in control, authoritative and confident
+    - Useful for dramatic effect
+
 
 
 
@@ -348,6 +362,15 @@ If you have any problems, please contact me via ShijieQ@outlook.com
     - two to five main points along with supporting examples
     - select them carefully, phrase them precisely, arrange them strategically
 - **Techniques of delivering a keynote speech**
+  - Beware of trying to fit too much information and key points into the main body of the presentation
+  - 4 or 5 key points during a 20 minute presentation would be about right
+  - Each key point should be like a mini-presentation of its own with a beginning, a middle and an end
+  - Avoid the main body of your presentation being just a long list of facts
+  - Make sure that each of your key points are linked together in a logical pattern and have your linking sentences very clearly thought out
+  - Visual Aids should be used to help the audience understand and retain your presentation
+  - Avoid writing your speech in longhand as the written word is very different to the spoken word and the end result especially if it is read out to the audience will be tedious, uninspiring and lacking in sparkle
+  - Remember to constantly summarise during the main body of the presentation especially at the end  of each key point
+
 - **Language: useful expressions**
 
 
