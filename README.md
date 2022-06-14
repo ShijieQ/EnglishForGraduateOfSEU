@@ -14,6 +14,6 @@ If you have any problems, please contact me via ShijieQ@outlook.com
 
 Postgraduate English is conducted for two semesters, corresponding to the following two documents respectively:
 
-- [TC & IC](/FirstSemester)
-- [English Academic Writing](/SecondSemester)
+- [TC & IC](https://github.com/ShijieQ/EnglishForGraduateOfSEU/blob/main/FirstSemester.md)
+- [English Academic Writing](https://github.com/ShijieQ/EnglishForGraduateOfSEU/blob/main/SecondSemester.md)
 
