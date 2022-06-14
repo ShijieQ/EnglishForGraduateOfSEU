@@ -24,11 +24,11 @@
 
 - **Writing definitions: three types of definitions**
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Three types of definitions 1.png" alt="image-20211224111826153" style="zoom:30%;" />
+  <img src="./img/Three types of definitions 1.png" alt="image-20211224111826153" style="zoom:30%;" />
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Three types of definitions 2.png" alt="image-20211224111923117" style="zoom:30%;" />
+  <img src="./img/Three types of definitions 2.png" alt="image-20211224111923117" style="zoom:30%;" />
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Three types of definitions 3.png" alt="image-20211224112018348" style="zoom:30%;" />
+  <img src="./img/Three types of definitions 3.png" alt="image-20211224112018348" style="zoom:30%;" />
 
 - **Guidelines for writing descriptions**
 
@@ -54,11 +54,11 @@
 
 - **Format and basic elements of an email**
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/email outline.png" alt="image-20211223153829084" style="zoom: 30%;" />
+  <img src="./img/email outline.png" alt="image-20211223153829084" style="zoom: 30%;" />
 
 - **“you-attitude”**
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/you_attitude_vs_we_attitude.png" alt="image-20211223161415624" style="zoom:30%;" />
+  <img src="./img/you_attitude_vs_we_attitude.png" alt="image-20211223161415624" style="zoom:30%;" />
 
 - **Ways to improve the appearance**
 
@@ -89,15 +89,15 @@
   - *Don’t forward a message to an online discussion forum  without the writer’s permission*
   - *Don’t send a message unless you have something to  say* 
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Some_Tips_for_Email_Effectiveness.png" alt="image-20211223163608490" style="zoom:30%;" />
+  <img src="./img/Some_Tips_for_Email_Effectiveness.png" alt="image-20211223163608490" style="zoom:30%;" />
 
 - **Linguistic features**
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/read_and_decide_1.png" alt="image-20211223164024548" style="zoom:30%;" />
+  <img src="./img/read_and_decide_1.png" alt="image-20211223164024548" style="zoom:30%;" />
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/read_and_decide_2.png" alt="image-20211223163929285" style="zoom:30%;" />
+  <img src="./img/read_and_decide_2.png" alt="image-20211223163929285" style="zoom:30%;" />
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/read_and_decide_3.png" alt="image-20211223163951060" style="zoom:30%;" />
+  <img src="./img/read_and_decide_3.png" alt="image-20211223163951060" style="zoom:30%;" />
 
 
 
@@ -138,7 +138,7 @@
 
 - **Components and format of a memo**
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Elements_of_a_memo.png" alt="image-20211223202230669" style="zoom:30%;" />
+  <img src="./img/Elements_of_a_memo.png" alt="image-20211223202230669" style="zoom:30%;" />
 
   - **Heading**
     - From & To
@@ -175,7 +175,7 @@
       - **complimentary remarks**: *motivates the readers and makes them feel happy*
       - **directive statements**: *tells the readers what exactly is to be expected or what they have to do next*
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Whats_wrong_with_this_memo.png" alt="image-20211223211443829" style="zoom:30%;" />
+  <img src="./img/Whats_wrong_with_this_memo.png" alt="image-20211223211443829" style="zoom:30%;" />
 
 - **Writing skills**
 
@@ -232,9 +232,9 @@
 
 - **Difference between a résumé and a CV**
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Resume_vs_CV_1.png" alt="image-20211224101348800" style="zoom:30%;" />
+  <img src="./img/Resume_vs_CV_1.png" alt="image-20211224101348800" style="zoom:30%;" />
 
-  <img src="D:/Github/EnglishForGraduateOfSEU/img/Resume_vs_CV_2.png" alt="image-20211224101415707" style="zoom:30%;" />
+  <img src="./img/Resume_vs_CV_2.png" alt="image-20211224101415707" style="zoom:30%;" />
 
 - **Writing skills**
 

@@ -2,7 +2,7 @@
 
 
 
-## Academic Writing Style
+## Unit 1: Academic Writing Style
 
 ### Key Characteristics
 
@@ -34,7 +34,7 @@ Choose the more formal ones when selecting a verb, a noun, or other parts of spe
 - avoid contractions 避免缩写
 - use the more appropriate formal negative forms 使用更合适的形式否定形式
 - limit the use of "run on" expressions, such as "and so forth" and "etc." 限制使用“run-on”表达式，如“and so forth”和“etc“
-  - **Example.** These semiconductors can be used in robots, CD players, *and* *other electronic devices.*
+  - **E.g.** These semiconductors can be used in robots, CD players, *and* *other electronic devices.*
 - avoid address the reader as "you" 避免使用"You"
 - limit the use of direct questions 限制直接提问的使用
 
@@ -46,9 +46,9 @@ Linking words and phrases can help a writer maintain flow and establish clear re
 
 
 
-## Research Proposal
+## Unit 2: Research Proposal
 
-Research Proposal has the following components:
+### Elements
 
 - A Clear Working Title 明确的题目
 - Overview of the Research 研究概述
@@ -95,7 +95,7 @@ turn a verb or an adjective into a noun.
 
 
 
-## Introduction & Literature Review
+## Unit 3: Introduction & Literature Review
 
 ### Introduction
 
@@ -114,9 +114,25 @@ The introduction of a research paper is a summary or overview of your research f
 - Significance 重要性
 - Outline 概述
 
-#### Language Style
+### Literature Review
 
-##### Citation Tense
+A literature review is not simply a summary of what you have read, but a **critical** and **in-depth** evaluation of the previous research.
+
+文献综述不仅仅是对你所读内容的总结，而是对之前研究的关键且深入的评价。
+
+#### Elements
+
+- Knowledge Background 知识背景
+- Existing Gap 现有差距
+- Significance 重要性
+- Limitation 限制条件
+- Prediction 预测
+
+### Language Style
+
+#### Citation Tense
+
+引用时主要包含三种时态：**一般现在时**、**一般过去时**和**现在完成时**，分别对应的场景可从下表中查看。
 
 | Tense                 | Function                                                     |
 | --------------------- | ------------------------------------------------------------ |
@@ -124,35 +140,182 @@ The introduction of a research paper is a summary or overview of your research f
 | Simple Past tense     | Recounting previous events or results found or a preceding generalization, or the basis for a claim |
 | Present perfect tense | State recent research results/direct relevance               |
 
-##### Citing Verbs
+#### Citing Verbs
+
+引用时采用的谓语动词分为三种：**中性引用词**、**模糊引用词**和**强引用词**，其具体举例可从下表查看。
+
+| **'Neutral' citing verbs**                                   | **'Tentative' citing verbs**                                 | **'Strong' citing verbs**                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| describe,  show, reveal, study, demonstrate, note, point out, indicate, report, observe,  assume, take into consideration, examine, state, believe (unless this is a  strong belief), mention, etc. | suggest,  speculate, intimate, hypothesize, moot, imply, propose, recommend, posit the  view that, question the view that, postulate, etc. | argue,  claim, emphasize, contend, maintain, assert, theorize, support the view that,  deny, negate, refute, reject, challenge, strongly believe that, counter the  view/argument that, etc. |
+
+#### For example
+
+- As Jones(1999) **argues** in his study of thermodynamics, ...
+- In considering Smith's discussion on thermodynamics, Jones(1999) **argues** that...
+
+### Writing Skills
+
+#### Citing Previous Research
+
+- **Information prominent citation** 信息突出型引用
+  - the information is given primary importance 突出信息
+  - focus on the information provided by the author
+  - **E.g.** For viscoelastic fluids, the behavior of the time-dependent stresses in the transient shear flows is also very important **(Boger et al., 1994)**. 
+- **Author prominent citation** 作者突出型引用
+  - serves as the subject of the sentence 作为句子的主语
+  - followed by the year in parentheses 后面跟括号里的年份
+  - **E.g.** **Close (1983)** developed a simplified theory using an analogy between heat and mass transfer and the equivalent heat transfer only case.
+- **Weak author prominent citation** 弱作者突出型引用
+  - The cited author pointed out at the end that the subject part is referred to by pronouns 引用的作者在末尾指出，主语部分用代词指代
+  - **E.g.** **Several authors** have reported ... **(Nguyen, 2005; Smith, 2000; Wilson, 2003)**.
+
+Author prominent citation can be either strong or weak, depending on how much emphasis is placed on the identity of the author. 作者突出型引用可以是强引用，也可以是弱引用，这取决于对作者身份的重视程度。
+
+#### Relating Literature to Your Research
+
+A literature review is a report or overview of literature found relevant to an area of research or study.
+
+文献综述是对发现的与某一研究或研究领域相关的文献的报告或概述。
+
+It provides an overview of the current literature that is available on a given subject, usually in academia.
+
+它提供了当前文献的概述，这些文献通常在学术界针对某一特定主题提供。
+
+#### Avoid Plagiarism
+
+Three ways to be used to avoid plagiarism: **Quoting**, **Paraphrasing** and **Summarizing**.
+
+避免剽窃的三种方法：**引用**、**意译**和**总结**。
+
+**Difference between paraphrasing and Summarizing**: the size of the eventual result.
+
+**释义和总结的区别**：最终文字长度的长短。
+
+A summary is much shorter than an original passage while a paraphrase is almost as long as or even longer than the original passage.
+
+总结比原文短得多，而意译则几乎和原文一样长，甚至更长。
+
+##### Paraphrasing
+
+- modify the vocabulary of the passage and the method of expression 修改文章的词汇和表达方法
+- use synonyms 使用同义词
+- change the structure of sentences 改变句子结构
+  - change the sentence pattern 改变句子模式
+  - choose different parts of speech 选择不同的词类
+  - change the voice 改变风格
+
+#### Writing Literature Review
+
+1. **Decide on your areas of research** 确定研究领域
+2. **Search for the literature** 寻找文献
+3. **Find relevant excerpts in the books and articles** 查找文章或书中的相关概念
+   - Claims, conclusions, and findings 声明、结论和发现 
+   - Definitions of terms 术语定义
+   - Calls for follow-up studies relevant to your project 与项目相关的后续研究
+   - Gaps you notice in the literature 文献差异
+   - Disagreement about the constructs you are investigating 结构分歧
+4. **Encode the literature** 对文献进行编码
+5. **Create Your Conceptual Schema** 创建概念纲要
+6. **Write Your Literature Review** 写文献综述
 
 
 
-### Literature Review
+## Unit 4: Methodology Description
 
-A literature review is not simply a summary of what you have read, but a **critical** and **in-depth** evaluation of the previous research.
+The method section is the most important aspect of a research paper because it provides the information by which the validity of a study is ultimately judged.
 
-文献综述不仅仅是对你所读内容的总结，而是对之前研究的关键且深入的评价。
+方法部分是研究论文最重要的方面，因为它提供了最终判断研究有效性的信息。
+
+Methodology is the systematic, theoretical analysis of the methods applied to a field of study, or the theoretical analysis of the body of methods and principles associated with a branch of knowledge. It is the systematic study of methods that are, can be, or have been applied within a discipline. It is the study or description of methods. (Wikipedia)
+
+方法论是对应用于某一研究领域的方法进行系统的理论分析，或对与某一知识分支相关的方法和原则进行理论分析。它是对一门学科中正在、可以或已经应用的方法的系统研究。它是对方法的研究或描述。（维基百科）
+
+### Requirement
+
+The experiment could be repeated by others to evaluate whether the results are reproducible, and the readers can judge whether the results and conclusions are valid.
+
+其他人可以重复该实验，以评估结果是否可重复，读者可以判断结果和结论是否有效。
+
+- a clear and precise description of how an experiment 对实验如何进行的清晰而精确的描述
+- the rationale for the specific experimental procedures chosen 所选具体实验程序的基本原理
+
+### Elements
+
+- Overview of the research 概括
+- **Research Objective 研究目标**
+- **Research Subjects 研究对象**
+- **Research Location 研究地点**
+- Restrictions/Limiting conditions 约束条件
+- Sampling techniques 采样技术
+- **Materials 研究材料**
+- **Procedure 过程**
+- **Statistical Analysis/Treament 统计分析**
+
+### Data 
+
+#### Type
+
+<table>
+	<tr>
+	    <th>Perspective</th>
+	    <th>Type of Research</th>
+	</tr >
+	<tr >
+	    <td rowspan="2">the way of collection</td>
+	    <td>primary data 主要数据</td>
+	</tr>
+	<tr>
+	    <td>secondary data 次要数据</td>
+	</tr>
+	<tr>
+	    <td rowspan="2">the nature of data</td>
+	    <td>quantitative data 定量数据</td>
+	</tr>
+	<tr>
+	    <td>qualitative data 定性数据</td>
+	</tr>
+</table>
+
+#### Collection Methods
+
+<img src=".\img\Data_Collection_Methods.png" alt="数据收集方法" style="zoom:50%;" />
+
+### Language Style
+
+#### Passive Voice
+
+Passive structures have less subjective coloring. 被动结构含有较少的主观色彩。
+
+| **Information elements** | **Verbs using the passive voice**                            |
+| ------------------------ | ------------------------------------------------------------ |
+| Sample collection        | *was  performed, was designed, to be associated, were recruited* |
+| Procedure                | *were  collected, were frozen, were analyzed*                |
+| Materials                | *was  designed, was performed, was measured, was incubated, were extracted* |
+| Data  analysis           | *was  performed, was used, are divided into, were assigned, were calculated* |
+
+#### Sequential Markers
+
+A process paragraph explains how to do sth or how sth works. Process paragraphs are usually developed step-by-step in a **chronological** or **logical** sequence. 
+
+过程部分解释如何做某事或某事如何工作，通常按**时间顺序**或**逻辑顺序**逐步展开。
+
+- To begin with..., First of all... etc.
+- Secondly..., Next..., After that..., In addition... etc.
+- Finally..., Lastly... etc.
 
 
 
-
-
-## Methodology Description
-
-
-
-## Results & Discussion
+## Unit 5: Results & Discussion
 
 
 
-## Research Conclusion
+## Unit 6: Research Conclusion
 
 
 
-## Abstract & Documentation
+## Unit 7: Abstract & Documentation
 
 
 
-## Acknowledgements & Submission
+## Unit 8: Acknowledgements & Submission
 
