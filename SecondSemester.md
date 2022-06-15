@@ -189,7 +189,7 @@ Three ways to be used to avoid plagiarism: **Quoting**, **Paraphrasing** and **S
 
 **Difference between paraphrasing and Summarizing**: the size of the eventual result.
 
-**释义和总结的区别**：最终文字长度的长短。
+**意译和总结的区别**：最终文字长度的长短。
 
 A summary is much shorter than an original passage while a paraphrase is almost as long as or even longer than the original passage.
 
@@ -344,6 +344,110 @@ A process paragraph explains how to do sth or how sth works. Process paragraphs 
 
 
 ## Unit 5: Results & Discussion
+
+The results and discussion section is to present the results with texts and the statistical techniques such as tables and graphs and then to explain and contemplate the results.
+
+结果和讨论部分将通过文本和统计技术（如表格和图表）呈现结果，然后解释和思考结果。
+
+### Results
+
+Results part can be arranged according to the research questions. 结果部分可根据研究问题进行编排。
+
+#### Elements
+
+*这部分不太确定，文中以及课程ppt中没有给出明确的定义*
+
+- Review of  the research issue
+- Review of the method
+- ..
+
+### Discussion
+
+Discussion part can either be a part of the results section or a separate section. 讨论部分可以是结果部分的一部分，也可以是单独的部分。
+
+Discussion part does not simply repeat or rearrange the introduction section. Instead , it tells your study has moved forward from where you leave us at the end of the introduction section. 讨论部分并不是简单地重复或重新编排引言部分。相反，它告诉我们，你的研究已经从你在介绍部分结束时留给我们的地方向前推进了。
+
+#### Elements
+
+- possible explanations for the finding(s) 调查结果的可能解释
+- the new finding which is different from previous studies 与以往研究不同的新发现
+- a reference to the main purpose / research questions of the study 研究的主要目的/研究问题
+- a review of the most relevant / important finding(s) 最相关/最重要发现的述评
+- the comparison with expected results and other studies 预期结果和其他研究的对比
+- a summary of the finding(s) 对于发现的总结
+
+### Language Style
+
+#### Comparison & Contrast
+
+| comparison                                                   | contrast                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| like, too, similar  as, similarly,<br>both, likewise, as  well as, also,<br>in  the same way, have  … in common,<br>the  same as | although, yet, whereas, however,<br>but, while, instead, unlike, unless,<br>be different  from, the  reverse, differ,<br>contrary  to, conversely, even  though,<br>on the  contrary, on  the other hand |
+
+The purpose of **comparison** is to show similarities while the purpose of **contrast** is to show differences
+
+**比较**的作用是显示相似处，而**对比**的作用是显示不同。
+
+##### Tips
+
+- Not all the information has to be compared or contrasted with each other. 并非所有信息都需要比较
+- When comparing or contrasting information in the graphs, it is not necessary to lay equal emphasis on every change. 在比较或对比图表中的信息时，没有必要对每一个变化都给予同等的重视
+- The comparison/contrast should be supported by concrete and relevant facts or data. 比较/对比应以具体和相关的事实或数据为依据
+
+#### Cause & effect
+
+A cause-effect relationship is a relationship in which one event (the cause) makes another event happen (the effect).
+
+因果关系是一个事件（原因）导致另一个事件（结果）发生的关系。
+
+### Writing Skills
+
+#### Describing the graphic information
+
+The bottom, The peak, The fluctuating part——**折线图的最低点、最高点和趋势**
+
+| **Situations**                                               | **Expressions**                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **When  introducing the graphic information and making a general statement** |The chart shows the percentage of  … <br>The vertical axis shows …  The horizontal axis compares … |
+| **When  referring to a graph**                               | As can be seen/It can be seen  from the graph …<br>As shown in Graph 3,…<br>From the graph above, it may/can  be seen/ concluded / shown/ estimated/ calculated / inferred that…<br>The graph below /The pie chart above  shows/ illustrates…<br>According to Table 1,… |
+| **When  describing a graph**                                 | There was a minimal (slight,  slow, gradual, steady) rise.<br>There was a rapid increase.<br>There was a (an) marked (large,  dramatic, steep, sharp, abrupt) decrease (decline, reduction, fall, drop).<br>There was a sudden fluctuation. |
+| **When  describing a curve or a trend**                      | a gradual/slight increase; a  sharp/steep rise; the peak<br>a rapid/abrupt fall; a slight  dip; no change; slow fall<br>It shows an upward trend.<br>It shows a downward trend. |
+| **When  making a conclusion**                                | to sum up; in conclusion;<br>It appears that…<br>The two charts clearly show… |
+
+##### Steps
+
+1. Introduce the graphic information briefly and indicate the main trend. Normally it includes the place, time, content and purpose of the graph; 简要介绍图形信息，并指出主要趋势。通常包括图形的位置、时间、内容和目的；
+2. Describe the relevant and most important or significant data and make some comparison if necessary; 描述相关和最重要或重要的数据，必要时进行比较；
+3. Summarize the data/trends. 总结数据/趋势。
+
+##### Vocabulary
+
+highlighting data: *“apparent”, “clear”, “interesting”,  “obvious”, “revealing” and “significant”*
+
+#### Strengthening or weakening of your statements
+
+Claims are statements about ideas and data from you and other people. Claims是关于你和其他人的想法和数据的声明
+
+- Strengthening: When the proof of your idea or data is clear 证据充足时强化你的声明
+- weakening: When the evidence is less certain 证据不确定时弱化你的声明
+
+|                | Strengthening/Boosting                                       | Weakening/Hedging                                            |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Nouns**      | certainty, evidence, the fact that                           |                                                              |
+| **Verbs**      | show, prove, establish, confirm, conclude, determine, it is clear that, it is obvious that | appear , argue, doubt, estimate, seen (as), seem, speculate, suggest |
+| **Adjectives** | key, central, crucial, basic, fundamental, major, principal, essential, significant |                                                              |
+| **Adverbs**    | very, pretty, quite, clearly, obviously, undoubtedly, certainly, of course, indeed, inevitably | largely, likely, mainly, maybe, perhaps, possible/possibly, probable/probably, rather, |
+
+#### Outlining
+
+1. **Prepare the information** 准备信息
+   1. Review you results and check whether they have answered all the research questions. 回顾你的研究结果，检查他们是否回答了所有的研究问题
+   2.  Organize your results in a logical manner. 以合乎逻辑的方式组织结果
+   3. Read the literature review section again. 再次阅读文献综述部分
+   4. Read the introduction section again. 再次阅读简介部分
+2. **Report the results** 报告结果
+3. **Comment on the results** 对结果进行评论
+4. **Summarize the results and the discussion** 总结结果和讨论
 
 
 
