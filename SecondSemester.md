@@ -303,6 +303,44 @@ A process paragraph explains how to do sth or how sth works. Process paragraphs 
 - Secondly..., Next..., After that..., In addition... etc.
 - Finally..., Lastly... etc.
 
+### Writing Skills
+
+#### Ordering Methodology Elements
+
+- identifying the method of research; 确定研究方法
+- specifying the subjects of study; 明确研究对象
+- selecting an adequate representative sample of subjects; 选择适当的受试者代表性样本
+- selecting reliable instruments for measuring the variables in a research problem; 选择可靠的工具来测量研究问题中的变量
+- describing the procedure to be employed for conducting your research; 描述开展研究所采用的程序
+- collecting data; 收集数据
+- analyzing and interpreting your results. 分析和解释结果
+
+#### Required Content
+
+- the materials used in the study; 研究中使用的材料
+- how the materials were prepared for the study; 研究材料的准备方式
+- the research protocol; 研究方案
+- how measurements were made and what calculations were performed; 如何进行测量以及进行了哪些计算
+- which statistical tests were done to analyze the data. 进行了哪些统计测试来分析数据
+
+#### Describing Methodology
+
+- The selection between qualitative and quantitative research has to be justified. 定性和定量研究之间的选择必须合理
+- If a survey of students in five high schools in an area is selected, the sample size and the selection of samples have to be justified. Selection methods also have to be stated. 必须证明样本大小和样本选择是合理的，必须说明选择的方法
+- Arrangements for data collection have to be stated and justified. Interview questions or questionnaires have to be stated and justified. 必须说明数据收集的安排，必须陈述面试问题或问卷，并证明其合理性
+- Methods and software for analyzing data have to be stated and justified. 必须说明并证明分析数据的方法和软件
+
+#### Design a Questionnaire
+
+- Determine the information required; 确定所需信息
+- Define the target respondents; 确定目标受访者
+- Choose the method(s) of reaching your target respondents; 选择找到目标受访者的方法
+- Design questions; 设计问题
+- Put questions into a meaningful order and format; 以有意义的顺序和格式提出问题
+- Check the length of the questionnaire; 检查问卷的长度
+- Pre-test the questionnaire; 对问卷进行预测试
+- Develop the final survey form. 制定最终调查表
+
 
 
 ## Unit 5: Results & Discussion
