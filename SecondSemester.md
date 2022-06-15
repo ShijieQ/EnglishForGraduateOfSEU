@@ -549,8 +549,8 @@ Here are some examples of each element:
 - Be careful not to draw conclusions from data involving errors of observation. 注意不要从包含观察错误的数据中得出结论
 - Do not use mathematical formulas without clear understanding of the derivations and all the assumptions involved. 在不清楚推导和所有相关假设的情况下，不要使用数学公式
 - Avoid confusing facts with opinions of influences, not only in the investigation itself but also in preparing results for publication. 不仅在调查本身，而且在准备公布结果时，避免将事实与具有影响力的观点混淆
-- Do not draw a conclusion from too few data, or too broad a conclusion that is based on extrapolated curves. 不要根据太少的数据得出结论，也不要根据外推曲线得出过于宽泛的结论
-- Guard against failing to qualify a conclusion, in order to show the limits within which it applies, or the variation which is to be expected. 显示其适用范围或预期变化来限定结论
+- Do not draw a conclusion from too few data, or too broad a conclusion that is based on extrapolated curves. 不要根据太少的数据得出结论，也不要根据推测曲线得出过于宽泛的结论
+- Guard against failing to qualify a conclusion, in order to show the limits within which it applies, or the variation which is to be expected. 写明其适用范围或预期变化来限定结论
 
 
 
