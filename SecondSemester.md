@@ -1,6 +1,6 @@
 # English Academic Writing
 
-
+[![](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU) [![](https://img.shields.io/badge/licence-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![](https://img.shields.io/badge/Github-EnglishForGraduateOfSEU-green.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU) [![](https://img.shields.io/badge/stability-unstable-yellow.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU)
 
 ## Contents
 
@@ -559,6 +559,73 @@ Here are some examples of each element:
 
 
 ## Unit 7: Abstract & Documentation
+
+### Elements
+
+#### Version 1
+
+- Background 背景
+- Objective 目标
+- Materials 材料
+- Approach 方法
+- Findings 发现
+- Conclusion 结论
+- Implication 意义
+- Limitation 限制
+
+#### version 2
+
+- Background 背景
+- Objective 目标
+- Research Focus 研究点
+- Research Process 研究过程
+- Methods 方法
+- Research Results 研究结果
+- Conclusion 结论
+
+### Language Style
+
+| **Elements** | **Verb  tenses**                    |
+| ------------ | ----------------------------------- |
+| Background   | the simple present tense 一般现在时 |
+| Methods      | the simple past tense 一般过去时    |
+| Results      | the simple past tense 一般过去时    |
+| Conclusion   | the simple present tense 一般现在时 |
+| Significance | the simple present tense 一般现在时 |
+
+| Elements         | Verbs Example                                                |
+| ---------------- | ------------------------------------------------------------ |
+| Background       | *originate, provide, summarize, review, ...*                 |
+| Objective        | *develop, explain, address, aim, attempt, ...*               |
+| Research Focus   | *present, discover, include, study, ...*                     |
+| Research Process | *examine, conduct, analyze, discuss, consider, investigate, ...* |
+| Methods          | *observe, collect, estimate, calculate, measure, ...*        |
+| Research Results | *show, present, indicate, demonstrate, illustrate, imply, ...* |
+| Conclusion       | *summarize, introduce, conclude, ...*                        |
+
+### Writing Skills
+
+#### A reasonable abstract writing process 
+
+这部分老师上课时单独讲过，可能是考试的一个**Key points**。
+
+1. Identify the major objectives and conclusions. 确定主要目标和结论
+2. Identify phrases with keywords in the method section. 通过关键词确定方法部分的短语
+3. Identify the major results from the discussion or results section. 确定讨论和结论部分的主要结论
+4. Assemble the above information into a single paragraph in a right information order with appropriate verbs, tenses, and sentence patterns. 按照正确的信息顺序，用适当的动词、时态和句型将上述信息组合成一个段落
+5. Remove extra words and phrases. 删除多余的单词和短语
+6. Revise the paragraph so that the abstract conveys only the essential information. 修改段落使摘要仅传达基本信息
+7. Check to see if it meets the guidelines of the targeted journal. 检查是否符合目标期刊的指南
+8. Give the abstract to a colleague (preferably one who is not familiar with your work) and ask him/her whether it makes sense. 将摘要交给同事（最好是不熟悉你工作的同事），问他/她是否有意义
+
+#### About reference
+
+- You need list all your references at the end of the reference list. 列出所有参考文献
+- The materials you have paraphrased should be regarded as the references. 意译过的部分也应该被认为是引用
+- A reference can be used to avoid plagiarism. 引用可以被用来避免学术抄袭
+- A reference list can help readers to locate the materials that have been referred to. 参考列表可以帮助读者找到已参考的材料。
+- A good reference must be authoritative and up-to-date. 一个好的参考必须是权威的和最新的
+- IEEE style is widely used in computer science while MLA style is especially used in social sciences. IEEE风格在计算机科学中被广泛使用，而MLA风格更多在社会科学中使用（MLA, Modern Language Association）
 
 
 
