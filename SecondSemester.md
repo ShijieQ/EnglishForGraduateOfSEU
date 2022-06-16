@@ -2,9 +2,13 @@
 
 [![](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU) [![](https://img.shields.io/badge/licence-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php) [![](https://img.shields.io/badge/Github-EnglishForGraduateOfSEU-green.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU) [![](https://img.shields.io/badge/stability-unstable-yellow.svg)](https://github.com/ShijieQ/EnglishForGraduateOfSEU)
 
+
+
 ## Contents
 
 [TOC]
+
+
 
 ## Unit 1: Academic Writing Style
 
@@ -47,6 +51,8 @@ Choose the more formal ones when selecting a verb, a noun, or other parts of spe
 Linking words and phrases can help a writer maintain flow and establish clear relationships between ideas.
 
 链接单词和短语可以帮助作者保持流畅，并在想法之间建立清晰的关系。
+
+
 
 
 
@@ -96,6 +102,8 @@ turn a verb or an adjective into a noun.
 3. Establishing a Working Title
    - a title you initially think 您最初认为的标题
    - establish a focus for your research and writing 确立研究和写作的重点
+
+
 
 
 
@@ -226,6 +234,8 @@ A summary is much shorter than an original passage while a paraphrase is almost 
 
 
 
+
+
 ## Unit 4: Methodology Description
 
 The method section is the most important aspect of a research paper because it provides the information by which the validity of a study is ultimately judged.
@@ -257,7 +267,7 @@ The experiment could be repeated by others to evaluate whether the results are r
 - **Procedure 过程**
 - **Statistical Analysis/Treatment 统计分析**
 
-### Data 
+### Data
 
 #### Type
 
@@ -346,6 +356,8 @@ A process paragraph explains how to do sth or how sth works. Process paragraphs 
 - Check the length of the questionnaire; 检查问卷的长度
 - Pre-test the questionnaire; 对问卷进行预测试
 - Develop the final survey form. 制定最终调查表
+
+
 
 
 
@@ -457,6 +469,8 @@ Claims are statements about ideas and data from you and other people. Claims是�
 
 
 
+
+
 ## Unit 6: Research Conclusion
 
 Conclusion section is a most valuable part. It is usually a brief section of academic texts which normally serves the following functions. 结论部分是最有价值的部分。它通常是学术文本的一个简短部分，通常具有以下功能。
@@ -558,6 +572,8 @@ Here are some examples of each element:
 
 
 
+
+
 ## Unit 7: Abstract & Documentation
 
 ### Elements
@@ -573,7 +589,7 @@ Here are some examples of each element:
 - Implication 意义
 - Limitation 限制
 
-#### version 2
+#### Version 2
 
 - Background 背景
 - Objective 目标
@@ -629,5 +645,61 @@ Here are some examples of each element:
 
 
 
+
+
 ## Unit 8: Acknowledgements & Submission
+
+### Acknowledgements
+
+#### Elements
+
+- Name and title/position of people you fell thankful to, their institution, and their contribution to this research. 你感激的人的姓名和头衔/职位、他们的机构以及他们对本研究的贡献
+- Name of Foundation/Funding, Grant maker, Donor with an ID number if available. 基金会/资金名称、赠款人、带有身份证号码（如有）的捐赠者信息。
+
+### Submission
+
+#### Elements
+
+- Basic submission information(Paper title, author name and affiliation, journal column) 基本提交信息（论文标题、作者姓名和隶属关系、期刊专栏）
+- Research overview/selling point 研究概述/卖点
+- Conflict of interest statement 利益冲突声明
+- Recommended reviewers 推荐的审阅者
+- Closing 结束语
+- Correspondence 联系方式
+
+### Language Style
+
+#### Politeness
+
+Politeness in letter/e-mail writing involves taking into account the correspondent’s feelings. 信件/电子邮件中的礼貌问题包含了考虑通信者的感受。
+
+#### Vocabulary
+
+- inappropriate 不恰当的
+- proofread 校对
+- appendix 附件
+- manuscript 稿子
+
+### Writing Skills
+
+Here are some examples:
+
+#### In Acknowledgements
+
+- would like to thank 感谢
+- participated / were involved / were recruited 参与
+- gratitude / grateful to 感激
+- is partially supported / was supported in part 部分受...资助
+
+#### In Submission
+
+- Thank you for raising this point/pointing it out. 感谢您指出这一点
+- Please let me know if you have any questions. 如果有问题请您告知我
+- Please find attached the manuscript. 稿件请见附件
+- I’d appreciate it if you could reply soon. 如果您能尽快回我，我将感激不尽
+- We have make corrections [as suggested by the reviewer]/[according to the reviewer's comment]. 我们已经依据评审意见修改了错误
+
+#### Example
+
+> The authors would like to thank the patients who were involved in the study. We would also like to show our gratitude to Dr. Jean-Frederic Colombel (co-director of the Feinstein IBD Center, Mount Sinai Hospital, New York, NY) for invaluable discussions and insights on Crohn’s disease, and we thank 3 “anonymous” reviewers for their detailed comments. We are also immensely grateful to Dr. Emilie Grasset (Precision Immunology Institute, Icahn School of Medicine at Mount Sinai, New York, NY) for her expertise and discussion on an earlier version of the manuscript. This research was supported in part by R01 DK106593, and the Sanford J. Grossman Charitable Trust; R.U. is supported/funded (资助) by a Career Development Award from the Crohn's and Colitis Foundation and an NIH K23 Career Development Award (K23KD111995-01A1).
 
