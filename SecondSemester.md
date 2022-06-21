@@ -373,11 +373,9 @@ Results part can be arranged according to the research questions. 结果部分�
 
 #### Elements
 
-*这部分不太确定，文中以及课程ppt中没有给出明确的定义*
-
-- Review of  the research issue
-- Review of the method
-- ..
+- Background of the results
+- The most important results/findings
+- Commenting on the results: generalizing and summarizing
 
 ### Discussion
 

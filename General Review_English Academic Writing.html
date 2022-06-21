@@ -1,0 +1,617 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title>SecondSemester</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='english-academic-writing'><span>English Academic Writing</span></h1><p><a href='https://github.com/ShijieQ/EnglishForGraduateOfSEU'><img src="https://img.shields.io/badge/version-0.0.1-blue.svg" referrerpolicy="no-referrer"></a><span> </span><a href='https://opensource.org/licenses/mit-license.php'><img src="https://img.shields.io/badge/licence-MIT-blue.svg" referrerpolicy="no-referrer"></a><span> </span><a href='https://github.com/ShijieQ/EnglishForGraduateOfSEU'><img src="https://img.shields.io/badge/Github-EnglishForGraduateOfSEU-green.svg" referrerpolicy="no-referrer"></a><span> </span><a href='https://github.com/ShijieQ/EnglishForGraduateOfSEU'><img src="https://img.shields.io/badge/stability-unstable-yellow.svg" referrerpolicy="no-referrer"></a></p><p>&nbsp;</p><h2 id='contents'><span>Contents</span></h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n0"><a class="md-toc-inner" href="#english-academic-writing">English Academic Writing</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n4"><a class="md-toc-inner" href="#contents">Contents</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n7"><a class="md-toc-inner" href="#unit-1-academic-writing-style">Unit 1: Academic Writing Style</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n8"><a class="md-toc-inner" href="#key-characteristics">Key Characteristics</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n25"><a class="md-toc-inner" href="#objective">Objective</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n33"><a class="md-toc-inner" href="#formal-structure">Formal structure</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n37"><a class="md-toc-inner" href="#word-choice">Word Choice</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n40"><a class="md-toc-inner" href="#formal-grammar-and-style">Formal Grammar and Style</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n55"><a class="md-toc-inner" href="#linking-words-and-flow">Linking Words and Flow</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n60"><a class="md-toc-inner" href="#unit-2-research-proposal">Unit 2: Research Proposal</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n61"><a class="md-toc-inner" href="#elements-1">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n77"><a class="md-toc-inner" href="#research-topic">Research Topic</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n80"><a class="md-toc-inner" href="#language-style-1">Language Style</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n81"><a class="md-toc-inner" href="#personal-pronouns">Personal pronouns</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n86"><a class="md-toc-inner" href="#nominalization">Nominalization </a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n89"><a class="md-toc-inner" href="#writing-skills-1">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n112"><a class="md-toc-inner" href="#unit-3-introduction--literature-review">Unit 3: Introduction &amp; Literature Review</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n113"><a class="md-toc-inner" href="#introduction">Introduction</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n116"><a class="md-toc-inner" href="#elements-2">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n134"><a class="md-toc-inner" href="#literature-review">Literature Review</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n137"><a class="md-toc-inner" href="#elements-3">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n149"><a class="md-toc-inner" href="#language-style-2">Language Style</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n150"><a class="md-toc-inner" href="#citation-tense">Citation Tense</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n165"><a class="md-toc-inner" href="#citing-verbs">Citing Verbs</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n176"><a class="md-toc-inner" href="#for-example">For example</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n182"><a class="md-toc-inner" href="#writing-skills-2">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n183"><a class="md-toc-inner" href="#citing-previous-research">Citing Previous Research</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n211"><a class="md-toc-inner" href="#relating-literature-to-your-research">Relating Literature to Your Research</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n216"><a class="md-toc-inner" href="#avoid-plagiarism">Avoid Plagiarism</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n223"><a class="md-toc-inner" href="#paraphrasing">Paraphrasing</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n242"><a class="md-toc-inner" href="#writing-literature-review">Writing Literature Review</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n269"><a class="md-toc-inner" href="#unit-4-methodology-description">Unit 4: Methodology Description</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n274"><a class="md-toc-inner" href="#requirement">Requirement</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n282"><a class="md-toc-inner" href="#elements-4">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n302"><a class="md-toc-inner" href="#data">Data</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n303"><a class="md-toc-inner" href="#type">Type</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n306"><a class="md-toc-inner" href="#collection-methods">Collection Methods</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n308"><a class="md-toc-inner" href="#language-style-3">Language Style</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n309"><a class="md-toc-inner" href="#passive-voice">Passive Voice</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n327"><a class="md-toc-inner" href="#sequential-markers">Sequential Markers</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n337"><a class="md-toc-inner" href="#writing-skills-3">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n338"><a class="md-toc-inner" href="#ordering-methodology-elements">Ordering Methodology Elements</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n354"><a class="md-toc-inner" href="#required-content">Required Content</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n366"><a class="md-toc-inner" href="#describing-methodology">Describing Methodology</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n376"><a class="md-toc-inner" href="#design-a-questionnaire">Design a Questionnaire</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n396"><a class="md-toc-inner" href="#unit-5-results--discussion">Unit 5: Results &amp; Discussion</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n399"><a class="md-toc-inner" href="#results">Results</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n401"><a class="md-toc-inner" href="#elements-5">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n410"><a class="md-toc-inner" href="#discussion">Discussion</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n413"><a class="md-toc-inner" href="#elements-6">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n427"><a class="md-toc-inner" href="#language-style-4">Language Style</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n428"><a class="md-toc-inner" href="#comparison--contrast">Comparison &amp; Contrast</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n438"><a class="md-toc-inner" href="#tips">Tips</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n446"><a class="md-toc-inner" href="#cause--effect">Cause &amp; effect</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n449"><a class="md-toc-inner" href="#writing-skills-4">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n450"><a class="md-toc-inner" href="#describing-the-graphic-information">Describing the graphic information</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n471"><a class="md-toc-inner" href="#steps">Steps</a></span><span role="listitem" class="md-toc-item md-toc-h5" data-ref="n479"><a class="md-toc-inner" href="#vocabulary-1">Vocabulary</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n481"><a class="md-toc-inner" href="#strengthening-or-weakening-of-your-statements">Strengthening or weakening of your statements</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n509"><a class="md-toc-inner" href="#outlining">Outlining</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n530"><a class="md-toc-inner" href="#unit-6-research-conclusion">Unit 6: Research Conclusion</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n542"><a class="md-toc-inner" href="#elements-7">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n554"><a class="md-toc-inner" href="#writing-skills-5">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n556"><a class="md-toc-inner" href="#summarizing-the-findings">Summarizing the findings</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n576"><a class="md-toc-inner" href="#significance-of-the-findings">Significance of the findings</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n596"><a class="md-toc-inner" href="#limitations-of-the-research">Limitations of the research</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n618"><a class="md-toc-inner" href="#further-research">Further research</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n640"><a class="md-toc-inner" href="#implicationsrecommendations">Implications/Recommendations</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n658"><a class="md-toc-inner" href="#restating-the-research-objective">Restating the Research Objective</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n672"><a class="md-toc-inner" href="#writing-a-concluding-section">Writing a Concluding Section</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n686"><a class="md-toc-inner" href="#unit-7-abstract--documentation">Unit 7: Abstract &amp; Documentation</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n687"><a class="md-toc-inner" href="#elements-8">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n688"><a class="md-toc-inner" href="#version-1">Version 1</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n706"><a class="md-toc-inner" href="#version-2">Version 2</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n722"><a class="md-toc-inner" href="#language-style-5">Language Style</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n767"><a class="md-toc-inner" href="#writing-skills-6">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n768"><a class="md-toc-inner" href="#a-reasonable-abstract-writing-process">A reasonable abstract writing process </a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n787"><a class="md-toc-inner" href="#about-reference">About reference</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n803"><a class="md-toc-inner" href="#unit-8-acknowledgements--submission">Unit 8: Acknowledgements &amp; Submission</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n804"><a class="md-toc-inner" href="#acknowledgements">Acknowledgements</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n805"><a class="md-toc-inner" href="#elements-9">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n811"><a class="md-toc-inner" href="#submission">Submission</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n812"><a class="md-toc-inner" href="#elements-10">Elements</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n826"><a class="md-toc-inner" href="#language-style-6">Language Style</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n827"><a class="md-toc-inner" href="#politeness">Politeness</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n829"><a class="md-toc-inner" href="#vocabulary-2">Vocabulary</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n839"><a class="md-toc-inner" href="#writing-skills-7">Writing Skills</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n841"><a class="md-toc-inner" href="#in-acknowledgements">In Acknowledgements</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n851"><a class="md-toc-inner" href="#in-submission">In Submission</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n863"><a class="md-toc-inner" href="#example">Example</a></span></p></div><p>&nbsp;</p><h2 id='unit-1-academic-writing-style'><span>Unit 1: Academic Writing Style</span></h2><h3 id='key-characteristics'><span>Key Characteristics</span></h3><figure><table><thead><tr><th><span>Key features</span></th><th><span>Reasons behind</span></th></tr></thead><tbody><tr><td><span>Objectivity</span></td><td><span>The readers need evidence-based facts rather than your personal opinions.</span></td></tr><tr><td><span>Complexity</span></td><td><span>Academic writing often discusses difficult, challenging ideas which can only be expressed with particular grammar and language.</span></td></tr><tr><td><span>Formal structure</span></td><td><span>Academic writing should be clear, concise and structured.</span></td></tr><tr><td><span>Referencing</span></td><td><span>Scientific discoveries are made by building on the ideas of other people. Another reason is to avoid plagiarism.</span></td></tr></tbody></table></figure><h4 id='objective'><span>Objective</span></h4><ul><li><span>Hedging Language 模糊语</span></li><li><span>Empty introductory phrases 仅介绍性的短语</span></li><li><span>passive voice 被动语态</span></li></ul><h4 id='formal-structure'><span>Formal structure</span></h4><ul><li><span>cohesion and coherence 衔接与连贯</span></li></ul><h3 id='word-choice'><span>Word Choice</span></h3><p><span>Choose the more formal ones when selecting a verb, a noun, or other parts of speech.</span></p><p><span>选择动词、名词或其他词类时，选择更正式的（比较长的那个）</span></p><h3 id='formal-grammar-and-style'><span>Formal Grammar and Style</span></h3><ul><li><p><span>avoid contractions 避免缩写</span></p></li><li><p><span>use the more appropriate formal negative forms 使用更合适的形式否定形式</span></p></li><li><p><span>limit the use of &quot;run on&quot; expressions, such as &quot;and so forth&quot; and &quot;etc.&quot; 限制使用“run-on”表达式，如“and so forth”和“etc“</span></p><ul><li><strong><span>E.g.</span></strong><span> These semiconductors can be used in robots, CD players, </span><em><span>and</span></em><span> </span><em><span>other electronic devices.</span></em></li></ul></li><li><p><span>avoid address the reader as &quot;you&quot; 避免使用&quot;You&quot;</span></p></li><li><p><span>limit the use of direct questions 限制直接提问的使用</span></p></li></ul><h3 id='linking-words-and-flow'><span>Linking Words and Flow</span></h3><p><span>Linking words and phrases can help a writer maintain flow and establish clear relationships between ideas.</span></p><p><span>链接单词和短语可以帮助作者保持流畅，并在想法之间建立清晰的关系。</span></p><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-2-research-proposal'><span>Unit 2: Research Proposal</span></h2><h3 id='elements-1'><span>Elements</span></h3><ul><li><span>A Clear Working Title 明确的题目</span></li><li><span>Overview of the Research 研究概述</span></li><li><span>Review of Literature 文献综述</span></li><li><span>Research Methodology 研究方法</span></li><li><span>Facilities Required 设施要求</span></li><li><span>Conclusion 结论</span></li><li><span>List of Key Reference 关键参考文献列表</span></li></ul><h3 id='research-topic'><span>Research Topic</span></h3><p><span>The reasons of unsuitable research topic: </span><strong><span>impractical</span></strong><span>, </span><strong><span>too</span></strong><span> </span><strong><span>general</span></strong><span> or </span><strong><span>too</span></strong><span> </span><strong><span>trivial</span></strong><span>.</span></p><p><span>研究主题不合适的原因：</span><strong><span>不切实际</span></strong><span>、</span><strong><span>过于笼统</span></strong><span>或</span><strong><span>过于琐碎</span></strong><span>。</span></p><h3 id='language-style-1'><span>Language Style</span></h3><h4 id='personal-pronouns'><span>Personal pronouns</span></h4><p><span>First person pronouns: establishing author identify by using it and strengthening impersonal tone by removing it.</span></p><p><span>Second person pronouns: seldom used unless you give instructions.</span></p><p><strong><span>Third person pronouns: sounds more objective and convincing.</span></strong></p><p><span>第三人称听起来更加客观且有说服力。</span></p><h4 id='nominalization'><span>Nominalization </span></h4><p><span>turn a verb or an adjective into a noun.</span></p><p><span>动词或形容词变成名词。</span></p><h3 id='writing-skills-1'><span>Writing Skills</span></h3><ol start='' ><li><p><span>Select a Topic 选择一个主题</span></p><ul><li><span>make sure that this topic is interesting to you 确保主题是你感兴趣的</span></li></ul></li><li><p><span>Formulating the Focus 制定重点</span></p><ul><li><span>narrowed down the topic 缩小范围</span></li><li><span>developed to a specifically defined written document and oral presentation 形成明确的书面文件和口头陈述</span></li></ul></li><li><p><span>Establishing a Working Title</span></p><ul><li><span>a title you initially think 您最初认为的标题</span></li><li><span>establish a focus for your research and writing 确立研究和写作的重点</span></li></ul></li></ol><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-3-introduction--literature-review'><span>Unit 3: Introduction &amp; Literature Review</span></h2><h3 id='introduction'><span>Introduction</span></h3><p><span>The introduction of a research paper is a summary or overview of your research for guiding your readers.</span></p><p><span>引言是对研究的总结或概述，以指导读者。</span></p><h4 id='elements-2'><span>Elements</span></h4><ul><li><span>Background 背景</span></li><li><span>Research Focus 研究重点</span></li><li><span>Justification 论证</span></li><li><span>Research Problem 研究问题</span></li><li><span>Research Objective 研究目标</span></li><li><span>Limitations 限制条件</span></li><li><span>Significance 重要性</span></li><li><span>Outline 概述</span></li></ul><h3 id='literature-review'><span>Literature Review</span></h3><p><span>A literature review is not simply a summary of what you have read, but a </span><strong><span>critical</span></strong><span> and </span><strong><span>in-depth</span></strong><span> evaluation of the previous research.</span></p><p><span>文献综述不仅仅是对你所读内容的总结，而是对之前研究的关键且深入的评价。</span></p><h4 id='elements-3'><span>Elements</span></h4><ul><li><span>Knowledge Background 知识背景</span></li><li><span>Existing Gap 现有差距</span></li><li><span>Significance 重要性</span></li><li><span>Limitation 限制条件</span></li><li><span>Prediction 预测</span></li></ul><h3 id='language-style-2'><span>Language Style</span></h3><h4 id='citation-tense'><span>Citation Tense</span></h4><p><span>引用时主要包含三种时态：</span><strong><span>一般现在时</span></strong><span>、</span><strong><span>一般过去时</span></strong><span>和</span><strong><span>现在完成时</span></strong><span>，分别对应的场景可从下表中查看。</span></p><figure><table><thead><tr><th><span>Tense</span></th><th><span>Function</span></th></tr></thead><tbody><tr><td><span>Simple Present tense</span></td><td><span>Cite others&#39; ideas/opinion/theoretical concepts or methods</span></td></tr><tr><td><span>Simple Past tense</span></td><td><span>Recounting previous events or results found or a preceding generalization, or the basis for a claim</span></td></tr><tr><td><span>Present perfect tense</span></td><td><span>State recent research results/direct relevance</span></td></tr></tbody></table></figure><h4 id='citing-verbs'><span>Citing Verbs</span></h4><p><span>引用时采用的谓语动词分为三种：</span><strong><span>中性引用词</span></strong><span>、</span><strong><span>模糊引用词</span></strong><span>和</span><strong><span>强引用词</span></strong><span>，其具体举例可从下表查看。</span></p><figure><table><thead><tr><th><strong><span>&#39;Neutral&#39; citing verbs</span></strong></th><th><strong><span>&#39;Tentative&#39; citing verbs</span></strong></th><th><strong><span>&#39;Strong&#39; citing verbs</span></strong></th></tr></thead><tbody><tr><td><span>describe,  show, reveal, study, demonstrate, note, point out, indicate, report, observe,  assume, take into consideration, examine, state, believe (unless this is a  strong belief), mention, etc.</span></td><td><span>suggest,  speculate, intimate, hypothesize, moot, imply, propose, recommend, posit the  view that, question the view that, postulate, etc.</span></td><td><span>argue,  claim, emphasize, contend, maintain, assert, theorize, support the view that,  deny, negate, refute, reject, challenge, strongly believe that, counter the  view/argument that, etc.</span></td></tr></tbody></table></figure><h4 id='for-example'><span>For example</span></h4><ul><li><span>As Jones(1999) </span><strong><span>argues</span></strong><span> in his study of thermodynamics, ...</span></li><li><span>In considering Smith&#39;s discussion on thermodynamics, Jones(1999) </span><strong><span>argues</span></strong><span> that...</span></li></ul><h3 id='writing-skills-2'><span>Writing Skills</span></h3><h4 id='citing-previous-research'><span>Citing Previous Research</span></h4><ul><li><p><strong><span>Information prominent citation</span></strong><span> 信息突出型引用</span></p><ul><li><span>the information is given primary importance 突出信息</span></li><li><span>focus on the information provided by the author</span></li><li><strong><span>E.g.</span></strong><span> For viscoelastic fluids, the behavior of the time-dependent stresses in the transient shear flows is also very important </span><strong><span>(Boger et al., 1994)</span></strong><span>. </span></li></ul></li><li><p><strong><span>Author prominent citation</span></strong><span> 作者突出型引用</span></p><ul><li><span>serves as the subject of the sentence 作为句子的主语</span></li><li><span>followed by the year in parentheses 后面跟括号里的年份</span></li><li><strong><span>E.g.</span></strong><span> </span><strong><span>Close (1983)</span></strong><span> developed a simplified theory using an analogy between heat and mass transfer and the equivalent heat transfer only case.</span></li></ul></li><li><p><strong><span>Weak author prominent citation</span></strong><span> 弱作者突出型引用</span></p><ul><li><span>The cited author pointed out at the end that the subject part is referred to by pronouns 引用的作者在末尾指出，主语部分用代词指代</span></li><li><strong><span>E.g.</span></strong><span> </span><strong><span>Several authors</span></strong><span> have reported ... </span><strong><span>(Nguyen, 2005; Smith, 2000; Wilson, 2003)</span></strong><span>.</span></li></ul></li></ul><p><span>Author prominent citation can be either strong or weak, depending on how much emphasis is placed on the identity of the author. 作者突出型引用可以是强引用，也可以是弱引用，这取决于对作者身份的重视程度。</span></p><h4 id='relating-literature-to-your-research'><span>Relating Literature to Your Research</span></h4><p><span>A literature review is a report or overview of literature found relevant to an area of research or study.</span></p><p><span>文献综述是对发现的与某一研究或研究领域相关的文献的报告或概述。</span></p><p><span>It provides an overview of the current literature that is available on a given subject, usually in academia.</span></p><p><span>它提供了当前文献的概述，这些文献通常在学术界针对某一特定主题提供。</span></p><h4 id='avoid-plagiarism'><span>Avoid Plagiarism</span></h4><p><span>Three ways to be used to avoid plagiarism: </span><strong><span>Quoting</span></strong><span>, </span><strong><span>Paraphrasing</span></strong><span> and </span><strong><span>Summarizing</span></strong><span>.</span></p><p><span>避免剽窃的三种方法：</span><strong><span>引用</span></strong><span>、</span><strong><span>意译</span></strong><span>和</span><strong><span>总结</span></strong><span>。</span></p><p><strong><span>Difference between paraphrasing and Summarizing</span></strong><span>: the size of the eventual result.</span></p><p><strong><span>意译和总结的区别</span></strong><span>：最终文字长度的长短。</span></p><p><span>A summary is much shorter than an original passage while a paraphrase is almost as long as or even longer than the original passage.</span></p><p><span>总结比原文短得多，而意译则几乎和原文一样长，甚至更长。</span></p><h5 id='paraphrasing'><span>Paraphrasing</span></h5><ul><li><p><span>modify the vocabulary of the passage and the method of expression 修改文章的词汇和表达方法</span></p></li><li><p><span>use synonyms 使用同义词</span></p></li><li><p><span>change the structure of sentences 改变句子结构</span></p><ul><li><span>change the sentence pattern 改变句子模式</span></li><li><span>choose different parts of speech 选择不同的词类</span></li><li><span>change the voice 改变风格</span></li><li><span>change between the affirmative and the negative 否定和肯定之间变换</span></li></ul></li><li><p><span>include references to the original source 适当的引用</span></p></li></ul><h4 id='writing-literature-review'><span>Writing Literature Review</span></h4><ol start='' ><li><p><strong><span>Decide on your areas of research</span></strong><span> 确定研究领域</span></p></li><li><p><strong><span>Search for the literature</span></strong><span> 寻找文献</span></p></li><li><p><strong><span>Find relevant excerpts in the books and articles</span></strong><span> 查找文章或书中的相关概念</span></p><ul><li><span>Claims, conclusions, and findings 声明、结论和发现 </span></li><li><span>Definitions of terms 术语定义</span></li><li><span>Calls for follow-up studies relevant to your project 与项目相关的后续研究</span></li><li><span>Gaps you notice in the literature 文献差异</span></li><li><span>Disagreement about the constructs you are investigating 结构分歧</span></li></ul></li><li><p><strong><span>Encode the literature</span></strong><span> 对文献进行编码</span></p></li><li><p><strong><span>Create Your Conceptual Schema</span></strong><span> 创建概念纲要</span></p></li><li><p><strong><span>Write Your Literature Review</span></strong><span> 写文献综述</span></p></li></ol><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-4-methodology-description'><span>Unit 4: Methodology Description</span></h2><p><span>The method section is the most important aspect of a research paper because it provides the information by which the validity of a study is ultimately judged.</span></p><p><span>方法部分是研究论文最重要的方面，因为它提供了最终判断研究有效性的信息。</span></p><p><span>Methodology is the systematic, theoretical analysis of the methods applied to a field of study, or the theoretical analysis of the body of methods and principles associated with a branch of knowledge. It is the systematic study of methods that are, can be, or have been applied within a discipline. It is the study or description of methods. (Wikipedia)</span></p><p><span>方法论是对应用于某一研究领域的方法进行系统的理论分析，或对与某一知识分支相关的方法和原则进行理论分析。它是对一门学科中正在、可以或已经应用的方法的系统研究。它是对方法的研究或描述。（维基百科）</span></p><h3 id='requirement'><span>Requirement</span></h3><p><span>The experiment could be repeated by others to evaluate whether the results are reproducible, and the readers can judge whether the results and conclusions are valid.</span></p><p><span>其他人可以重复该实验，以评估结果是否可重复，读者可以判断结果和结论是否有效。</span></p><ul><li><span>a clear and precise description of how an experiment 对实验如何进行的清晰而精确的描述</span></li><li><span>the rationale for the specific experimental procedures chosen 所选具体实验程序的基本原理</span></li></ul><h3 id='elements-4'><span>Elements</span></h3><ul><li><span>Overview of the research 概括</span></li><li><strong><span>Research Objective 研究目标</span></strong></li><li><strong><span>Research Subjects 研究对象</span></strong></li><li><strong><span>Research Location 研究地点</span></strong></li><li><span>Restrictions/Limiting conditions 约束条件</span></li><li><span>Sampling techniques 采样技术</span></li><li><strong><span>Materials 研究材料</span></strong></li><li><strong><span>Procedure 过程</span></strong></li><li><strong><span>Statistical Analysis/Treatment 统计分析</span></strong></li></ul><h3 id='data'><span>Data</span></h3><h4 id='type'><span>Type</span></h4><table>
+	<tbody><tr>
+	    <th>Perspective</th>
+	    <th>Type of Research</th>
+	</tr>
+	<tr>
+	    <td rowspan="2">the way of collection</td>
+	    <td>primary data 主要数据</td>
+	</tr>
+	<tr>
+	    <td>secondary data 次要数据</td>
+	</tr>
+	<tr>
+	    <td rowspan="2">the nature of data</td>
+	    <td>quantitative data 定量数据</td>
+	</tr>
+	<tr>
+	    <td>qualitative data 定性数据</td>
+	</tr>
+</tbody></table><h4 id='collection-methods'><span>Collection Methods</span></h4><p><img src=".\img\Data_Collection_Methods.png" alt="数据收集方法" style="zoom:50%;" /></p><h3 id='language-style-3'><span>Language Style</span></h3><h4 id='passive-voice'><span>Passive Voice</span></h4><p><span>Passive structures have less subjective coloring. 被动结构含有较少的主观色彩。</span></p><figure><table><thead><tr><th><strong><span>Information elements</span></strong></th><th><strong><span>Verbs using the passive voice</span></strong></th></tr></thead><tbody><tr><td><span>Sample collection</span></td><td><em><span>was  performed, was designed, to be associated, were recruited</span></em></td></tr><tr><td><span>Procedure</span></td><td><em><span>were  collected, were frozen, were analyzed</span></em></td></tr><tr><td><span>Materials</span></td><td><em><span>was  designed, was performed, was measured, was incubated, were extracted</span></em></td></tr><tr><td><span>Data  analysis</span></td><td><em><span>was  performed, was used, are divided into, were assigned, were calculated</span></em></td></tr></tbody></table></figure><h4 id='sequential-markers'><span>Sequential Markers</span></h4><p><span>A process paragraph explains how to do sth or how sth works. Process paragraphs are usually developed step-by-step in a </span><strong><span>chronological</span></strong><span> or </span><strong><span>logical</span></strong><span> sequence. </span></p><p><span>过程部分解释如何做某事或某事如何工作，通常按</span><strong><span>时间顺序</span></strong><span>或</span><strong><span>逻辑顺序</span></strong><span>逐步展开。</span></p><ul><li><span>To begin with..., First of all... etc.</span></li><li><span>Secondly..., Next..., After that..., In addition... etc.</span></li><li><span>Finally..., Lastly... etc.</span></li></ul><h3 id='writing-skills-3'><span>Writing Skills</span></h3><h4 id='ordering-methodology-elements'><span>Ordering Methodology Elements</span></h4><ul><li><span>identifying the method of research; 确定研究方法</span></li><li><span>specifying the subjects of study; 明确研究对象</span></li><li><span>selecting an adequate representative sample of subjects; 选择适当的受试者代表性样本</span></li><li><span>selecting reliable instruments for measuring the variables in a research problem; 选择可靠的工具来测量研究问题中的变量</span></li><li><span>describing the procedure to be employed for conducting your research; 描述开展研究所采用的程序</span></li><li><span>collecting data; 收集数据</span></li><li><span>analyzing and interpreting your results. 分析和解释结果</span></li></ul><h4 id='required-content'><span>Required Content</span></h4><ul><li><span>the materials used in the study; 研究中使用的材料</span></li><li><span>how the materials were prepared for the study; 研究材料的准备方式</span></li><li><span>the research protocol; 研究方案</span></li><li><span>how measurements were made and what calculations were performed; 如何进行测量以及进行了哪些计算</span></li><li><span>which statistical tests were done to analyze the data. 进行了哪些统计测试来分析数据</span></li></ul><h4 id='describing-methodology'><span>Describing Methodology</span></h4><ul><li><span>The selection between qualitative and quantitative research has to be justified. 定性和定量研究之间的选择必须合理</span></li><li><span>If a survey of students in five high schools in an area is selected, the sample size and the selection of samples have to be justified. Selection methods also have to be stated. 必须证明样本大小和样本选择是合理的，必须说明选择的方法</span></li><li><span>Arrangements for data collection have to be stated and justified. Interview questions or questionnaires have to be stated and justified. 必须说明数据收集的安排，必须陈述面试问题或问卷，并证明其合理性</span></li><li><span>Methods and software for analyzing data have to be stated and justified. 必须说明并证明分析数据的方法和软件</span></li></ul><h4 id='design-a-questionnaire'><span>Design a Questionnaire</span></h4><ul><li><span>Determine the information required; 确定所需信息</span></li><li><span>Define the target respondents; 确定目标受访者</span></li><li><span>Choose the method(s) of reaching your target respondents; 选择找到目标受访者的方法</span></li><li><span>Design questions; 设计问题</span></li><li><span>Put questions into a meaningful order and format; 以有意义的顺序和格式提出问题</span></li><li><span>Check the length of the questionnaire; 检查问卷的长度</span></li><li><span>Pre-test the questionnaire; 对问卷进行预测试</span></li><li><span>Develop the final survey form. 制定最终调查表</span></li></ul><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-5-results--discussion'><span>Unit 5: Results &amp; Discussion</span></h2><p><span>The results and discussion section is to present the results with texts and the statistical techniques such as tables and graphs and then to explain and contemplate the results.</span></p><p><span>结果和讨论部分将通过文本和统计技术（如表格和图表）呈现结果，然后解释和思考结果。</span></p><h3 id='results'><span>Results</span></h3><p><span>Results part can be arranged according to the research questions. 结果部分可根据研究问题进行编排。</span></p><h4 id='elements-5'><span>Elements</span></h4><p><em><span>这部分不太确定，文中以及课程ppt中没有给出明确的定义</span></em></p><ul><li><span>Review of  the research issue</span></li><li><span>Review of the method</span></li><li><span>..</span></li></ul><h3 id='discussion'><span>Discussion</span></h3><p><span>Discussion part can either be a part of the results section or a separate section. 讨论部分可以是结果部分的一部分，也可以是单独的部分。</span></p><p><span>Discussion part does not simply repeat or rearrange the introduction section. Instead , it tells your study has moved forward from where you leave us at the end of the introduction section. 讨论部分并不是简单地重复或重新编排引言部分。相反，它告诉我们，你的研究已经从你在介绍部分结束时留给我们的地方向前推进了。</span></p><h4 id='elements-6'><span>Elements</span></h4><ul><li><span>possible explanations for the finding(s) 调查结果的可能解释</span></li><li><span>the new finding which is different from previous studies 与以往研究不同的新发现</span></li><li><span>a reference to the main purpose / research questions of the study 研究的主要目的/研究问题</span></li><li><span>a review of the most relevant / important finding(s) 最相关/最重要发现的述评</span></li><li><span>the comparison with expected results and other studies 预期结果和其他研究的对比</span></li><li><span>a summary of the finding(s) 对于发现的总结</span></li></ul><h3 id='language-style-4'><span>Language Style</span></h3><h4 id='comparison--contrast'><span>Comparison &amp; Contrast</span></h4><figure><table><thead><tr><th><span>comparison</span></th><th><span>contrast</span></th></tr></thead><tbody><tr><td><span>like, too, similar  as, similarly,</span><br><span>both, likewise, as  well as, also,</span><br><span>in  the same way, have  … in common,</span><br><span>the  same as</span></td><td><span>although, yet, whereas, however,</span><br><span>but, while, instead, unlike, unless,</span><br><span>be different  from, the  reverse, differ,</span><br><span>contrary  to, conversely, even  though,</span><br><span>on the  contrary, on  the other hand</span></td></tr></tbody></table></figure><p><span>The purpose of </span><strong><span>comparison</span></strong><span> is to show similarities while the purpose of </span><strong><span>contrast</span></strong><span> is to show differences</span></p><p><strong><span>比较</span></strong><span>的作用是显示相似处，而</span><strong><span>对比</span></strong><span>的作用是显示不同。</span></p><h5 id='tips'><span>Tips</span></h5><ul><li><span>Not all the information has to be compared or contrasted with each other. 并非所有信息都需要比较</span></li><li><span>When comparing or contrasting information in the graphs, it is not necessary to lay equal emphasis on every change. 在比较或对比图表中的信息时，没有必要对每一个变化都给予同等的重视</span></li><li><span>The comparison/contrast should be supported by concrete and relevant facts or data. 比较/对比应以具体和相关的事实或数据为依据</span></li></ul><h4 id='cause--effect'><span>Cause &amp; effect</span></h4><p><span>A cause-effect relationship is a relationship in which one event (the cause) makes another event happen (the effect).</span></p><p><span>因果关系是一个事件（原因）导致另一个事件（结果）发生的关系。</span></p><h3 id='writing-skills-4'><span>Writing Skills</span></h3><h4 id='describing-the-graphic-information'><span>Describing the graphic information</span></h4><p><span>The bottom, The peak, The fluctuating part——</span><strong><span>折线图的最低点、最高点和趋势</span></strong></p><figure><table><thead><tr><th><strong><span>Situations</span></strong></th><th><strong><span>Expressions</span></strong></th></tr></thead><tbody><tr><td><strong><span>When  introducing the graphic information and making a general statement</span></strong></td><td><span>The chart shows the percentage of  … </span><br><span>The vertical axis shows …  The horizontal axis compares …</span></td></tr><tr><td><strong><span>When  referring to a graph</span></strong></td><td><span>As can be seen/It can be seen  from the graph …</span><br><span>As shown in Graph 3,…</span><br><span>From the graph above, it may/can  be seen/ concluded / shown/ estimated/ calculated / inferred that…</span><br><span>The graph below /The pie chart above  shows/ illustrates…</span><br><span>According to Table 1,…</span></td></tr><tr><td><strong><span>When  describing a graph</span></strong></td><td><span>There was a minimal (slight,  slow, gradual, steady) rise.</span><br><span>There was a rapid increase.</span><br><span>There was a (an) marked (large,  dramatic, steep, sharp, abrupt) decrease (decline, reduction, fall, drop).</span><br><span>There was a sudden fluctuation.</span></td></tr><tr><td><strong><span>When  describing a curve or a trend</span></strong></td><td><span>a gradual/slight increase; a  sharp/steep rise; the peak</span><br><span>a rapid/abrupt fall; a slight  dip; no change; slow fall</span><br><span>It shows an upward trend.</span><br><span>It shows a downward trend.</span></td></tr><tr><td><strong><span>When  making a conclusion</span></strong></td><td><span>to sum up; in conclusion;</span><br><span>It appears that…</span><br><span>The two charts clearly show…</span></td></tr></tbody></table></figure><h5 id='steps'><span>Steps</span></h5><ol start='' ><li><span>Introduce the graphic information briefly and indicate the main trend. Normally it includes the place, time, content and purpose of the graph; 简要介绍图形信息，并指出主要趋势。通常包括图形的位置、时间、内容和目的；</span></li><li><span>Describe the relevant and most important or significant data and make some comparison if necessary; 描述相关和最重要或重要的数据，必要时进行比较；</span></li><li><span>Summarize the data/trends. 总结数据/趋势。</span></li></ol><h5 id='vocabulary-1'><span>Vocabulary</span></h5><p><span>highlighting data: </span><em><span>“apparent”, “clear”, “interesting”,  “obvious”, “revealing” and “significant”</span></em></p><h4 id='strengthening-or-weakening-of-your-statements'><span>Strengthening or weakening of your statements</span></h4><p><span>Claims are statements about ideas and data from you and other people. Claims是关于你和其他人的想法和数据的声明</span></p><ul><li><span>Strengthening: When the proof of your idea or data is clear 证据充足时强化你的声明</span></li><li><span>weakening: When the evidence is less certain 证据不确定时弱化你的声明</span></li></ul><figure><table><thead><tr><th>&nbsp;</th><th><span>Strengthening/Boosting</span></th><th><span>Weakening/Hedging</span></th></tr></thead><tbody><tr><td><strong><span>Nouns</span></strong></td><td><span>certainty, evidence, the fact that</span></td><td>&nbsp;</td></tr><tr><td><strong><span>Verbs</span></strong></td><td><span>show, prove, establish, confirm, conclude, determine, it is clear that, it is obvious that</span></td><td><span>appear , argue, doubt, estimate, seen (as), seem, speculate, suggest</span></td></tr><tr><td><strong><span>Adjectives</span></strong></td><td><span>key, central, crucial, basic, fundamental, major, principal, essential, significant</span></td><td>&nbsp;</td></tr><tr><td><strong><span>Adverbs</span></strong></td><td><span>very, pretty, quite, clearly, obviously, undoubtedly, certainly, of course, indeed, inevitably</span></td><td><span>largely, likely, mainly, maybe, perhaps, possible/possibly, probable/probably, rather,</span></td></tr></tbody></table></figure><h4 id='outlining'><span>Outlining</span></h4><ol start='' ><li><p><strong><span>Prepare the information</span></strong><span> 准备信息</span></p><ol start='' ><li><span>Review you results and check whether they have answered all the research questions. 回顾你的研究结果，检查他们是否回答了所有的研究问题</span></li><li><span>Organize your results in a logical manner. 以合乎逻辑的方式组织结果</span></li><li><span>Read the literature review section again. 再次阅读文献综述部分</span></li><li><span>Read the introduction section again. 再次阅读简介部分</span></li></ol></li><li><p><strong><span>Report the results</span></strong><span> 报告结果</span></p></li><li><p><strong><span>Comment on the results</span></strong><span> 对结果进行评论</span></p></li><li><p><strong><span>Summarize the results and the discussion</span></strong><span> 总结结果和讨论</span></p></li></ol><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-6-research-conclusion'><span>Unit 6: Research Conclusion</span></h2><p><span>Conclusion section is a most valuable part. It is usually a brief section of academic texts which normally serves the following functions. 结论部分是最有价值的部分。它通常是学术文本的一个简短部分，通常具有以下功能。</span></p><ul><li><p><strong><span>&quot;Looking back&quot;</span></strong><span>: to </span><strong><span>summarize</span></strong><span> and bring together the main areas covered in the writing. 总结并汇集写作中涉及的主要领域</span></p></li><li><p><span>to analyze and evaluate your main points for readers. 为读者分析和评估你的主要观点</span></p><ul><li><span>point out the general </span><strong><span>implications</span></strong><span> and possible </span><strong><span>limitations</span></strong><span> 指出意义和限制</span></li></ul></li><li><p><span>to make suggestions for improvement and speculating on future directions. 提出改进建议和推测未来方向</span></p></li></ul><h3 id='elements-7'><span>Elements</span></h3><ul><li><span>Summary of the argument 观点总结</span></li><li><span>Major findings of the research 主要发现</span></li><li><span>Implications of the research 意义</span></li><li><span>Limitations of the research 局限性</span></li><li><span>Recommendations for further research 未来方向</span></li></ul><h3 id='writing-skills-5'><span>Writing Skills</span></h3><p><span>Here are some examples of each element:</span></p><h4 id='summarizing-the-findings'><span>Summarizing the findings</span></h4><ul><li><span>This study has shown that ......</span></li><li><span>These findings suggest that in general ......</span></li><li><span>One of the significant findings to emerge from this study is that .....</span></li><li><span>The following conclusion can be drawn from the present study ...... </span></li><li><span>The relevance of X is clearly supported by the current findings. </span></li><li><span>The second major finding was that ........ </span></li><li><span>The results of this investigation show that ....... </span></li><li><span>The most obvious finding to emerge from this study is that ...... </span></li><li><span>Multiple regression analysis revealed that the ......</span></li></ul><h4 id='significance-of-the-findings'><span>Significance of the findings</span></h4><ul><li><span>These findings enhance our understanding of ...... </span></li><li><span>The current findings add substantially to our understanding of ......</span></li><li><span>The current findings add to a growing body of literature on ......</span></li><li><span>The study has gone some way towards enhancing our understanding of ..</span></li><li><span>The present study, however, makes several noteworthy contributions to...</span></li><li><span>The empirical findings in this study provide a new understanding of </span></li><li><span>The findings from this study make several contributions to the current literature. </span></li><li><span>The present study provides additional evidence with respect to ……</span></li><li><span>The present study confirms previous findings and contributes additional evidence that suggests .... .</span></li></ul><h4 id='limitations-of-the-research'><span>Limitations of the research</span></h4><ul><li><span>Finally, a number of limitations need to be considered. First, ......</span></li><li><span>The most important limitation lies in the fact that ......</span></li><li><span>The current investigation was limited by ......</span></li><li><span>The project was limited in several ways. First, the project used a convenience  sample that ......</span></li><li><span>However, with a small sample size, caution must be applied, as the findings might not be transferable to ......</span></li><li><span>Our findings in this report are subject to three limitations. First, these data apply only to …..</span></li><li><span>An issue that was not addressed in this study was whether…..</span></li><li><span>One source of weakness in this study which could have affected ……</span></li><li><span>Several limitations to this pilot study need to be noted. </span></li><li><span>The main weakness of this study was the paucity of ……</span></li></ul><h4 id='further-research'><span>Further research</span></h4><ul><li><span>Further work needs to be done to establish whether ......</span></li><li><span>It is recommended that further research be undertaken in the following areas.</span></li><li><span>Further research in this field/regarding X would be of great help in ....... </span></li><li><span>Further investigation and experimentation into X is strongly recommended. </span></li><li><span>It would be interesting to assess the effects of ...... </span></li><li><span>These findings provide the following insights for future research .....</span></li><li><span>Considerably more work will need to be done to determine ......</span></li><li><span>It would be interesting to compare / A further study could assess …...</span></li><li><span>The issue of X is an intriguing one which could be usefully explored in further research.</span></li><li><span>Future research should therefore concentrate on the investigation of …...</span></li></ul><h4 id='implicationsrecommendations'><span>Implications/Recommendations</span></h4><ul><li><span>The current study has a number of important implications for future practice. </span></li><li><span>These findings suggest several courses of action for ...... </span></li><li><span>An implication of these findings is that both X and Y should be taken into account when ......</span></li><li><span>Another important practical implication is that ...... </span></li><li><span>Other types of X could include : a), b). ......</span></li><li><span>This can be used to develop targeted interventions aimed at ......</span></li><li><span>A reasonable approach to tackle this issue could be to ......</span></li><li><span>Taken together, the findings do not support strong recommendations to ......</span></li></ul><h4 id='restating-the-research-objective'><span>Restating the Research Objective</span></h4><ul><li><span>This study set out to determine...</span></li><li><span>The present study was designed to determine the effect of...</span></li><li><span>In this investigation, the aim was to assess...</span></li><li><span>The purpose of the current study was to determine...</span></li><li><span>This project was undertaken to design...and evaluate...</span></li><li><span>Returning to the hypothesis/question posed at the beginning of this study, it is now possible to state that...</span></li></ul><h3 id='writing-a-concluding-section'><span>Writing a Concluding Section</span></h3><ul><li><span>Be careful not to draw conclusions from data involving errors of observation. 注意不要从包含观察错误的数据中得出结论</span></li><li><span>Do not use mathematical formulas without clear understanding of the derivations and all the assumptions involved. 在不清楚推导和所有相关假设的情况下，不要使用数学公式</span></li><li><span>Avoid confusing facts with opinions of influences, not only in the investigation itself but also in preparing results for publication. 不仅在调查本身，而且在准备公布结果时，避免将事实与具有影响力的观点混淆</span></li><li><span>Do not draw a conclusion from too few data, or too broad a conclusion that is based on extrapolated curves. 不要根据太少的数据得出结论，也不要根据推测曲线得出过于宽泛的结论</span></li><li><span>Guard against failing to qualify a conclusion, in order to show the limits within which it applies, or the variation which is to be expected. 写明其适用范围或预期变化来限定结论</span></li></ul><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-7-abstract--documentation'><span>Unit 7: Abstract &amp; Documentation</span></h2><h3 id='elements-8'><span>Elements</span></h3><h4 id='version-1'><span>Version 1</span></h4><ul><li><span>Background 背景</span></li><li><span>Objective 目标</span></li><li><span>Materials 材料</span></li><li><span>Approach 方法</span></li><li><span>Findings 发现</span></li><li><span>Conclusion 结论</span></li><li><span>Implication 意义</span></li><li><span>Limitation 限制</span></li></ul><h4 id='version-2'><span>Version 2</span></h4><ul><li><span>Background 背景</span></li><li><span>Objective 目标</span></li><li><span>Research Focus 研究点</span></li><li><span>Research Process 研究过程</span></li><li><span>Methods 方法</span></li><li><span>Research Results 研究结果</span></li><li><span>Conclusion 结论</span></li></ul><h3 id='language-style-5'><span>Language Style</span></h3><figure><table><thead><tr><th><strong><span>Elements</span></strong></th><th><strong><span>Verb  tenses</span></strong></th></tr></thead><tbody><tr><td><span>Background</span></td><td><span>the simple present tense 一般现在时</span></td></tr><tr><td><span>Methods</span></td><td><span>the simple past tense 一般过去时</span></td></tr><tr><td><span>Results</span></td><td><span>the simple past tense 一般过去时</span></td></tr><tr><td><span>Conclusion</span></td><td><span>the simple present tense 一般现在时</span></td></tr><tr><td><span>Significance</span></td><td><span>the simple present tense 一般现在时</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>Elements</span></th><th><span>Verbs Example</span></th></tr></thead><tbody><tr><td><span>Background</span></td><td><em><span>originate, provide, summarize, review, ...</span></em></td></tr><tr><td><span>Objective</span></td><td><em><span>develop, explain, address, aim, attempt, ...</span></em></td></tr><tr><td><span>Research Focus</span></td><td><em><span>present, discover, include, study, ...</span></em></td></tr><tr><td><span>Research Process</span></td><td><em><span>examine, conduct, analyze, discuss, consider, investigate, ...</span></em></td></tr><tr><td><span>Methods</span></td><td><em><span>observe, collect, estimate, calculate, measure, ...</span></em></td></tr><tr><td><span>Research Results</span></td><td><em><span>show, present, indicate, demonstrate, illustrate, imply, ...</span></em></td></tr><tr><td><span>Conclusion</span></td><td><em><span>summarize, introduce, conclude, ...</span></em></td></tr></tbody></table></figure><h3 id='writing-skills-6'><span>Writing Skills</span></h3><h4 id='a-reasonable-abstract-writing-process'><span>A reasonable abstract writing process </span></h4><p><span>这部分老师上课时单独讲过，可能是考试的一个</span><strong><span>Key points</span></strong><span>。</span></p><ol start='' ><li><span>Identify the major objectives and conclusions. 确定主要目标和结论</span></li><li><span>Identify phrases with keywords in the method section. 通过关键词确定方法部分的短语</span></li><li><span>Identify the major results from the discussion or results section. 确定讨论和结论部分的主要结论</span></li><li><span>Assemble the above information into a single paragraph in a right information order with appropriate verbs, tenses, and sentence patterns. 按照正确的信息顺序，用适当的动词、时态和句型将上述信息组合成一个段落</span></li><li><span>Remove extra words and phrases. 删除多余的单词和短语</span></li><li><span>Revise the paragraph so that the abstract conveys only the essential information. 修改段落使摘要仅传达基本信息</span></li><li><span>Check to see if it meets the guidelines of the targeted journal. 检查是否符合目标期刊的指南</span></li><li><span>Give the abstract to a colleague (preferably one who is not familiar with your work) and ask him/her whether it makes sense. 将摘要交给同事（最好是不熟悉你工作的同事），问他/她是否有意义</span></li></ol><h4 id='about-reference'><span>About reference</span></h4><ul><li><span>You need list all your references at the end of the reference list. 列出所有参考文献</span></li><li><span>The materials you have paraphrased should be regarded as the references. 意译过的部分也应该被认为是引用</span></li><li><span>A reference can be used to avoid plagiarism. 引用可以被用来避免学术抄袭</span></li><li><span>A reference list can help readers to locate the materials that have been referred to. 参考列表可以帮助读者找到已参考的材料。</span></li><li><span>A good reference must be authoritative and up-to-date. 一个好的参考必须是权威的和最新的</span></li><li><span>IEEE style is widely used in computer science while MLA style is especially used in social sciences. IEEE风格在计算机科学中被广泛使用，而MLA风格更多在社会科学中使用（MLA, Modern Language Association）</span></li></ul><p>&nbsp;</p><p>&nbsp;</p><h2 id='unit-8-acknowledgements--submission'><span>Unit 8: Acknowledgements &amp; Submission</span></h2><h3 id='acknowledgements'><span>Acknowledgements</span></h3><h4 id='elements-9'><span>Elements</span></h4><ul><li><span>Name and title/position of people you fell thankful to, their institution, and their contribution to this research. 你感激的人的姓名和头衔/职位、他们的机构以及他们对本研究的贡献</span></li><li><span>Name of Foundation/Funding, Grant maker, Donor with an ID number if available. 基金会/资金名称、赠款人、带有身份证号码（如有）的捐赠者信息。</span></li></ul><h3 id='submission'><span>Submission</span></h3><h4 id='elements-10'><span>Elements</span></h4><ul><li><span>Basic submission information(Paper title, author name and affiliation, journal column) 基本提交信息（论文标题、作者姓名和隶属关系、期刊专栏）</span></li><li><span>Research overview/selling point 研究概述/卖点</span></li><li><span>Conflict of interest statement 利益冲突声明</span></li><li><span>Recommended reviewers 推荐的审阅者</span></li><li><span>Closing 结束语</span></li><li><span>Correspondence 联系方式</span></li></ul><h3 id='language-style-6'><span>Language Style</span></h3><h4 id='politeness'><span>Politeness</span></h4><p><span>Politeness in letter/e-mail writing involves taking into account the correspondent’s feelings. 信件/电子邮件中的礼貌问题包含了考虑通信者的感受。</span></p><h4 id='vocabulary-2'><span>Vocabulary</span></h4><ul><li><span>inappropriate 不恰当的</span></li><li><span>proofread 校对</span></li><li><span>appendix 附件</span></li><li><span>manuscript 稿子</span></li></ul><h3 id='writing-skills-7'><span>Writing Skills</span></h3><p><span>Here are some examples:</span></p><h4 id='in-acknowledgements'><span>In Acknowledgements</span></h4><ul><li><span>would like to thank 感谢</span></li><li><span>participated / were involved / were recruited 参与</span></li><li><span>gratitude / grateful to 感激</span></li><li><span>is partially supported / was supported in part 部分受...资助</span></li></ul><h4 id='in-submission'><span>In Submission</span></h4><ul><li><span>Thank you for raising this point/pointing it out. 感谢您指出这一点</span></li><li><span>Please let me know if you have any questions. 如果有问题请您告知我</span></li><li><span>Please find attached the manuscript. 稿件请见附件</span></li><li><span>I’d appreciate it if you could reply soon. 如果您能尽快回我，我将感激不尽</span></li><li><span>We have make corrections [as suggested by the reviewer]/[according to the reviewer&#39;s comment]. 我们已经依据评审意见修改了错误</span></li></ul><h4 id='example'><span>Example</span></h4><blockquote><p><span>The authors would like to thank the patients who were involved in the study. We would also like to show our gratitude to Dr. Jean-Frederic Colombel (co-director of the Feinstein IBD Center, Mount Sinai Hospital, New York, NY) for invaluable discussions and insights on Crohn’s disease, and we thank 3 “anonymous” reviewers for their detailed comments. We are also immensely grateful to Dr. Emilie Grasset (Precision Immunology Institute, Icahn School of Medicine at Mount Sinai, New York, NY) for her expertise and discussion on an earlier version of the manuscript. This research was supported in part by R01 DK106593, and the Sanford J. Grossman Charitable Trust; R.U. is supported/funded (资助) by a Career Development Award from the Crohn&#39;s and Colitis Foundation and an NIH K23 Career Development Award (K23KD111995-01A1).</span></p></blockquote><p>&nbsp;</p></div></div>
+</body>
+</html>
