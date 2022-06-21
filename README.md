@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This project is an general review about English for graduate student of Southeast University.
+This project is a general review about English for graduate student of Southeast University.
 
 As the title says, this project is only a general review of graduate English, **not the key points of the exam**. Therefore, if you read this article the night before the exam, you may need to have stronger reading and memory ability to understand the whole review content.
 
